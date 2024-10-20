@@ -1,0 +1,122 @@
+/* General Styles */
+body.body-class {
+    background-color: #f9f9f9; /* Subtle background color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Default text color */
+}
+
+/* Header */
+.header-class {
+    background-color: #2b3a42; /* Contrasting background color */
+    color: #ffffff; /* Font color for better visibility */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+.nav-class {
+    background-color: #34495e; /* Different background for nav bar */
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-class a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-class a.active {
+    font-weight: bold; /* Bold active page link */
+}
+
+/* Titles */
+.title-class {
+    color: #2980b9; /* Distinct color for title */
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.section-title-class {
+    color: #16a085; /* Distinct color for section title */
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Text */
+.text-class {
+    color: #2c3e50; /* Font color that contrasts well with background */
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Images */
+.image-class {
+    border: 3px solid #e67e22; /* Complementary border color */
+    max-width: 100%; /* Scalable image */
+    height: auto;
+}
+
+/* Forms and Buttons */
+.form-class input,
+.form-class select,
+.form-class textarea {
+    background-color: #ecf0f1; /* Cohesive background color for form fields */
+    color: #2c3e50;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.button-class {
+    background-color: #27ae60; /* Cohesive background color for button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #2ecc71;
+}
+
+/* Footer */
+.footer-class {
+    background-color: #2c3e50; /* Distinct background for footer */
+    color: #ecf0f1; /* Font color for footer */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Accessibility: Alt text for images */
+img[alt] {
+    display: block;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .header-class {
+        font-size: 1.5em;
+    }
+
+    .nav-class a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .form-class input, 
+    .form-class textarea, 
+    .form-class select {
+        width: 100%;
+    }
+
+    .title-class, 
+    .section-title-class {
+        font-size: 1.2em;
+    }
+}
